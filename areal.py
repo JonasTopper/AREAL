@@ -17,20 +17,32 @@ def skriv_meny():
     print("8. Avslutt")
 
 # Jonas
+    
+# Funksjon for å beregne arealet av et kvadrat skrives her. Funsjonen skal ta imot et parameter (s)
+# Funksjonen skal returnere arealet
+# Utvikler 1 har ansvaret for å lage denne funksjonen
 def kvadrat(s):
     areal = s*s
     return areal
 
-
+# Funksjon for å beregne arealet av et rektangel skrives her. Funsjonen skal ta imot to parameter (g og h)
+# Funksjonen skal returnere arealet
+# Utvikler 1 har ansvaret for å lage denne funksjonen
 def rektangel(g, h):
     areal = g*h
     return areal
 
+# Funksjon for å beregne arealet av en trekant skrives her. Funsjonen skal ta imot to parameter (g og h)
+# Funksjonen skal returnere arealet
+# Utvikler 1 har ansvaret for å lage denne funksjonen
 def trekant(g, h):
     areal = g*h
     areal = areal/2
     return areal
 
+# Funksjon for å beregne arealet av et parallellogram skrives her. Funsjonen skal ta imot to parameter (g og h)
+# Funksjonen skal returnere arealet
+# Utvikler 1 har ansvaret for å lage denne funksjonen
 def parallellogram(g,h):
     areal = g*h
     return areal
