@@ -1,4 +1,6 @@
 import os
+import pi
+import pow
 
 # Funksjon for å tømme terminalen
 def clear():
@@ -36,19 +38,37 @@ def parallellogram(g,h):
     return areal
 # Slutt
 
+# Trym
 # Funksjon for å beregne arealet av en rombe skrives her. Funsjonen skal ta imot to parameter (g og h)
+def rombe(g,h):
+    areal = g*h
+    return areal
 # Funksjonen skal returnere arealet
+
 # Utvikler 2 har ansvaret for å lage denne funksjonen
+
+
 
 
 # Funksjon for å beregne arealet av en trapes skrives her. Funsjonen skal ta imot tre parameter (a, b og h)
+def trapes(a,b,h):
+    areal = 0,5 * (a+b) * h
+    return areal
+    
 # Funksjonen skal returnere arealet
+
 # Utvikler 2 har ansvaret for å lage denne funksjonen
+
 
 
 # Funksjon for å beregne arealet av en sirkel skrives her. Funsjonen skal ta imot et parameter (r)
+def sirkel(r):
+    areal = 2 * 3.14 * r
+    return areal
 # Funksjonen skal returnere arealet
+
 # Utvikler 2 har ansvaret for å lage denne funksjonen
+
 
    
 
